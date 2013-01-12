@@ -45,7 +45,7 @@ public class ItemArmor extends Item
     NBTTagCompound localNBTTagCompound2 = localNBTTagCompound1.getCompound("display");
     if (localNBTTagCompound2 == null) return 10511680;
 
-    if (localNBTTagCompound2.hasKey("color")) {
+    if (localNBTTagCompound2.hasKey("color")) 
       return localNBTTagCompound2.getInt("color");
     }
     return 10511680;
